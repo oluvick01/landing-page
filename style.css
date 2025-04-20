@@ -1,0 +1,147 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color: burlywood;
+    --bg-color2:  rgba(237, 232, 242, 0.459);
+}
+body{
+    font-size: 1rem;
+}
+
+.hero{
+background-image: url(asset/image/bg1.jpg);
+background-position: center;
+/* mask-image: linear-gradient(rgb(128, 0, 128) 2%, transparent);
+-webkit-mask-image: linear-gradient(rgb(128, 0, 128) 2%, transparent); */
+background-repeat: no-repeat;
+object-fit: contain;
+height: 100vh; 
+position: relative; 
+z-index: 2; 
+color: whitesmoke;
+ font-weight: bold; 
+}
+.hero a{
+    color: whitesmoke;
+}
+/* .hero::after{
+    content: "";
+    position: absolute;
+    background-color:white;
+    opacity: 5;
+    inset: 0;
+} */
+h1{
+    color: rebeccapurple;
+}
+ .hero-content{
+    overflow: hidden;
+    width: 80%; 
+    
+    margin-left: 25%;
+    margin-right: 20%;
+    height: 80vh;
+    min-height: 40vh;
+    z-index: 1;
+    margin-top: 5%;
+} 
+.hero-txt{
+    position: absolute;
+    margin-right: 50%;
+    width: 50%;
+
+}
+.hero-text{
+    font-size: 0.9rem !important;
+    color: white;
+}
+.hero-br{
+    border: yellow solid 2px;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    width: 70%;
+    height: 65vh;
+}
+
+main{
+    background-color: rgba(237, 232, 242, 0.459);
+    width: auto;
+    height: auto;
+    color: rgb(50, 42, 42);
+}
+
+.about-us{
+    overflow: hidden;
+    /* min-height: 30vh;
+    max-height: 50vh; */
+    /* z-index: 1;
+    position: relative; */
+
+}
+.abt-txt{
+background-color:var(--bg-color);
+}
+.abt-img{
+width: 50vh;
+
+}
+
+.abt-article{
+    background-color: white;
+    /* position: absolute;
+    top:100%; */
+}
+.abt-card-footer{
+    background-color: var(--bg-color2);
+    color:#6b705c;
+    text-align: center;
+    
+}
+.contact-us{
+    background-image: url(asset/image/family2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.contact-us-txt{
+    color: white;
+    padding: 15px;
+    background-color: rgba(65, 105, 225, 0.564);
+}
+.contact-us-text{
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+}
+
+.span-text{
+    transition: all 0.8s ease-in-out;
+    padding: 2px;
+}
+.span-text:not(.span-text1):hover{
+    background-color: royalblue;
+    color: white;
+   transform: scaleY(1.5);
+   font-size: 0.8rem;
+}
+:is(.fa, .fa-solid, .fa-regular){
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    
+}
+
+/* 
+<i class="fi fi-rs-diploma"></i>
+<i class="fi fi-brands-facebook"></i>
+<i class="fi fi-brands-whatsapp"></i>
+<i class="fi fi-sr-envelope"></i>
+<i class="fi fi-rr-users-alt"></i>
+<i class="fi fi-rr-edit"></i>
+<i class="fi fi-rr-menu-burger"></i> */
