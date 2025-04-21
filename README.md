@@ -1,1 +1,1 @@
-## working on responsiveness of a landind page
+## working on responsiveness of a landing page
