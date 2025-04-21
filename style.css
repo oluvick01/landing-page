@@ -10,6 +10,7 @@
 }
 body{
     font-size: 1rem;
+    font-family: "Poppins", sans-serif;
 }
 
 .hero{
@@ -24,9 +25,11 @@ position: relative;
 z-index: 2; 
 color: whitesmoke;
  font-weight: bold; 
+ font-family: "Poppins", sans-serif;
 }
 .hero a{
     color: whitesmoke;
+    font-family: "Poppins", sans-serif;
 }
 /* .hero::after{
     content: "";
@@ -90,7 +93,12 @@ background-color:var(--bg-color);
 width: 50vh;
 
 }
-
+.hidden{
+    display: none;
+}
+/* .menu-item, .menu-nav{
+    display: block;
+} */
 .abt-article{
     background-color: white;
     /* position: absolute;
@@ -136,7 +144,9 @@ width: 50vh;
     text-align: center;
     
 }
-
+.menu-button{
+    display: none;
+}
 /* 
 <i class="fi fi-rs-diploma"></i>
 <i class="fi fi-brands-facebook"></i>
@@ -145,3 +155,24 @@ width: 50vh;
 <i class="fi fi-rr-users-alt"></i>
 <i class="fi fi-rr-edit"></i>
 <i class="fi fi-rr-menu-burger"></i> */
+/* .menu-nav{
+    margin-top: 10%;
+} */
+@media only screen and (max-width: 600px) {
+    .menu-item{
+        display: none;
+       
+    } 
+    .menu-button{
+        display: inline;
+    }
+    .hero-br{
+        display: none;
+    }
+    .menu-nav{
+    margin-top: 5%;
+}
+:is(.contact-us-txt, .contact-us-txt h2){
+    font-size: 0.7rem;
+}
+}
