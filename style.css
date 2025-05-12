@@ -128,9 +128,7 @@ width: 50vh;
   
     align-items: center;
 }
-.abt-card{
-    /* margin: auto 50%; */
-}
+
 .abt-card-footer{
     background-color: var(--bg-color2);
     color:#6b705c;
@@ -234,6 +232,9 @@ footer{
     width: 80%;
     text-wrap: wrap;
     overflow: hidden;
+}
+.footer-txt a{
+    color: rgb(65, 105, 225) !important;
 }
 @media only screen and (max-width: 767px) {
     .hero{
@@ -512,7 +513,6 @@ footer h4{
     }
     .contact-us-txt h5{
         font-size: 1rem;
-        fa
     }
      .contact-us-text{
         width: 100%;
